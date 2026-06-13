@@ -1,0 +1,42 @@
+name: Wave Financial API Rate Limits
+description: Rate limiting policies for the Wave Financial GraphQL API
+url: https://developer.waveapps.com/hc/en-us
+created: 2026-06-13
+modified: 2026-06-13
+api_endpoint: https://gql.waveapps.com/graphql/public
+limits:
+  - name: Per Access Token Minute Limit
+    scope: per_access_token
+    window: 1 minute
+    limit: 60
+    unit: requests
+    http_status_on_exceeded: 429
+  - name: Per Application Daily Limit
+    scope: per_application
+    window: 24 hours
+    limit: 5000
+    unit: requests
+    http_status_on_exceeded: 429
+  - name: Name Verification Endpoint Limit
+    scope: per_phone_number
+    endpoint: /v1/user_name_matches/
+    window: 5 minutes
+    limit: 30
+    unit: requests
+    http_status_on_exceeded: 429
+    notes: Phone number blocked for 60 minutes after limit exceeded
+policies:
+  - name: Exponential Backoff
+    description: Developers should implement exponential backoff when receiving 429 responses
+  - name: Response Caching
+    description: Caching API responses is recommended to reduce request volume and stay within limits
+  - name: Peak Usage
+    description: Additional restrictions may apply during peak usage periods
+error_handling:
+  rate_limit_exceeded:
+    http_status: 429
+    description: Too Many Requests - returned when rate limits are exceeded
+    recommended_action: Implement exponential backoff and retry after a delay
+notes:
+  - Rate limits are applied to prevent abuse and maintain performance for all users
+  - Access tokens expire after approximately 2 hours requiring token refresh

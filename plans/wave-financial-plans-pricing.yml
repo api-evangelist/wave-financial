@@ -1,0 +1,71 @@
+name: Wave Financial Plans and Pricing
+description: Pricing tiers for Wave Financial accounting software and API access
+url: https://www.waveapps.com/pricing
+created: 2026-06-13
+modified: 2026-06-13
+plans:
+  - name: Starter
+    description: Free plan with core accounting features and unlimited invoicing
+    price: 0
+    currency: USD
+    period: month
+    features:
+      - Unlimited estimates and invoices
+      - Unlimited bills and bookkeeping records
+      - Mobile app access
+      - Customer dashboard
+      - API access via OAuth 2.0 (connected businesses must have Pro subscription as of May 2025)
+    limits:
+      api_calls_per_minute: 60
+      api_calls_per_day: 5000
+    payment_processing:
+      credit_card: 2.9% + $0.60 per transaction
+  - name: Pro
+    description: Enhanced plan with bank import, automated categorization, and multi-user access
+    price: 19
+    currency: USD
+    period: month
+    annual_price: 190
+    currency_annual: USD
+    features:
+      - Everything in Starter
+      - Auto-import and auto-categorize bank transactions
+      - Unlimited receipt digitization
+      - Automated late payment reminders
+      - Branded invoices
+      - Multi-user access
+      - Dashboard insights
+      - Required for third-party OAuth API integrations (as of May 2025)
+    limits:
+      api_calls_per_minute: 60
+      api_calls_per_day: 5000
+    payment_processing:
+      credit_card_first_10: 2.9% + $0 per transaction
+      credit_card_after_10: 2.9% + $0.60 per transaction
+  - name: Wave Advisors
+    description: Dedicated bookkeeper with monthly financial statements and tax readiness
+    price: 199
+    currency: USD
+    period: month
+    features:
+      - Everything in Pro (except mobile receipts)
+      - Dedicated bookkeeper
+      - Monthly financial statements
+      - Expert support
+      - Tax readiness assistance
+add_ons:
+  - name: Receipts Digitization
+    price_starter: 11
+    price_pro: included
+    period: month
+  - name: Payroll
+    price_starting: 25
+    period: month
+    notes: Price varies by plan and number of employees
+  - name: Wave Advisors Coaching
+    description: Optional one-on-one accounting guidance packages
+    price: contact_for_pricing
+notes:
+  - Wave Financial API access is free with no per-call fees
+  - As of May 26 2025 third-party OAuth applications require connected businesses to have an active Wave Pro subscription
+  - Payroll pricing starts at $25/month for tax service states and $40/month for full-service states

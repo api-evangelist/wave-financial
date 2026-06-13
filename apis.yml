@@ -1,0 +1,63 @@
+aid: wave-financial
+name: Wave Financial
+description: Free accounting software for small businesses with a GraphQL API for managing invoices, estimates, customers, products, accounts, and financial reporting. The API uses OAuth 2.0 for authentication and supports operations for businesses, customers, invoices, transactions, vendors, taxes, and webhooks.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/wave-financial/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Accounting
+  - Invoicing
+  - Financial
+  - Small Business
+  - Bookkeeping
+  - Payments
+apis:
+  - aid: wave-financial:wave-financial-graphql-api
+    name: Wave Financial GraphQL API
+    description: GraphQL API providing programmatic access to Wave accounting features including businesses, customers, invoices, products, accounts, transactions, vendors, taxes, and webhooks.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.waveapps.com/hc/en-us
+    baseURL: https://gql.waveapps.com/graphql/public
+    tags:
+      - Accounting
+      - GraphQL
+      - Invoicing
+      - Customers
+      - Transactions
+    properties:
+      - type: Documentation
+        url: https://developer.waveapps.com/hc/en-us/categories/360001114072-Documentation
+      - type: Authentication
+        url: https://developer.waveapps.com/hc/en-us/articles/360019493652-OAuth-Guide
+      - type: GraphQL
+        url: https://developer.waveapps.com/hc/en-us/articles/360018570992-Building-on-GraphQL
+      - type: Playground
+        url: https://developer.waveapps.com/hc/en-us/articles/360018937431-API-Playground
+common:
+  - type: Website
+    url: https://www.waveapps.com
+  - type: Documentation
+    url: https://developer.waveapps.com/hc/en-us
+  - type: GitHubOrg
+    url: https://github.com/waveapps
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/waveapps
+  - type: Blog
+    url: https://www.waveapps.com/blog
+  - type: Pricing
+    url: https://www.waveapps.com/pricing
+  - type: StatusPage
+    url: https://status.waveapps.com/
+  - type: X
+    url: https://twitter.com/wave_financial
+  - type: Plans
+    url: plans/wave-financial-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/wave-financial-rate-limits.yml
+  - type: FinOps
+    url: finops/wave-financial-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

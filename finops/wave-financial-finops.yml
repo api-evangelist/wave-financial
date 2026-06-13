@@ -1,0 +1,49 @@
+name: Wave Financial FinOps
+description: Financial operations considerations for integrating with Wave Financial API
+url: https://www.waveapps.com/pricing
+created: 2026-06-13
+modified: 2026-06-13
+cost_model:
+  api_access: free
+  description: Wave Financial API has no per-call fees or subscription costs for API usage itself
+  notes:
+    - Core Wave accounting features and API access are free
+    - Paid options exist for payments processing, payroll, and advisory services
+    - As of May 2025 connected businesses must have Wave Pro subscription for third-party OAuth apps
+transaction_costs:
+  credit_card_processing:
+    starter_plan: 2.9% + $0.60 per transaction
+    pro_plan_first_10: 2.9% + $0.00 per transaction
+    pro_plan_after_10: 2.9% + $0.60 per transaction
+  bank_payments:
+    description: ACH bank payment processing
+    notes: Contact Wave for current ACH pricing
+subscription_costs:
+  pro_plan:
+    monthly: 19 USD
+    annual: 190 USD
+    notes: Required for businesses connecting via third-party OAuth apps as of May 2025
+  wave_advisors:
+    monthly_starting: 199 USD
+optimization:
+  - name: Use Pro Plan for OAuth Integrations
+    description: Third-party integrations require connected businesses to have Pro subscription; budget $19/month per connected business
+  - name: Monitor Daily API Limits
+    description: Stay within 5000 requests/day per application to avoid service interruption
+  - name: Cache Responses
+    description: Implement response caching to reduce API call volume and associated overhead
+  - name: Batch GraphQL Queries
+    description: Use GraphQL to request only required fields and combine multiple data needs in fewer requests
+  - name: Use Refresh Tokens
+    description: Implement token refresh to avoid re-authentication overhead; access tokens expire after 2 hours
+compliance:
+  - name: Canadian Privacy Law
+    description: Wave Financial is a Canadian company; data handling must comply with PIPEDA
+  - name: PCI DSS
+    description: Payment processing integrations must comply with PCI DSS standards
+  - name: SOC 2
+    description: Wave maintains SOC 2 compliance for security and availability
+notes:
+  - Wave Financial was acquired by H&R Block in 2019
+  - API is primarily GraphQL with a single endpoint at https://gql.waveapps.com/graphql/public
+  - No OpenAPI/Swagger specification available; schema is GraphQL SDL
