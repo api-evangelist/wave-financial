@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Wave Financial",
+  "url": "https://www.waveapps.com",
+  "description": "Free accounting software for small businesses with a GraphQL API for managing invoices, estimates, customers, products, accounts, and financial reporting.",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://twitter.com/wave_financial",
+    "https://www.linkedin.com/company/waveapps",
+    "https://github.com/waveapps"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "developer support",
+    "url": "https://developer.waveapps.com/hc/en-us"
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Free accounting software for small businesses",
+    "url": "https://www.waveapps.com/pricing",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebAPI",
+    "name": "Wave Financial GraphQL API",
+    "description": "GraphQL API providing programmatic access to Wave accounting features including businesses, customers, invoices, products, accounts, transactions, vendors, taxes, and webhooks.",
+    "documentation": "https://developer.waveapps.com/hc/en-us/categories/360001114072-Documentation",
+    "endpointURL": "https://gql.waveapps.com/graphql/public",
+    "termsOfService": "https://www.waveapps.com/legal/wave-terms-of-service",
+    "provider": {
+      "@type": "Organization",
+      "name": "Wave Financial"
+    },
+    "potentialAction": [
+      {
+        "@type": "Action",
+        "name": "Manage Invoices",
+        "description": "Create, update, and delete invoices for small businesses"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Customers",
+        "description": "Create and manage customer records"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Transactions",
+        "description": "Record and categorize financial transactions"
+      },
+      {
+        "@type": "Action",
+        "name": "Financial Reporting",
+        "description": "Access profit & loss, balance sheet, and other financial reports"
+      }
+    ]
+  }
+}
