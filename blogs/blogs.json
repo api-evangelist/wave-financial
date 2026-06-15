@@ -6,152 +6,281 @@
     {
       "title": "Is your business actually profitable? Check in 10 minutes",
       "url": "https://www.waveapps.com/blog/is-your-business-actually-profitable",
-      "tags": ["profitability", "financial-reporting", "small-business"]
+      "tags": [
+        "profitability",
+        "financial-reporting",
+        "small-business"
+      ]
     },
     {
       "title": "What Your Financial Reports Are Trying to Tell You",
       "url": "https://www.waveapps.com/blog/what-your-financial-reports-are-trying-to-tell-you",
-      "tags": ["financial-reporting", "accounting", "small-business"]
+      "tags": [
+        "financial-reporting",
+        "accounting",
+        "small-business"
+      ]
     },
     {
       "title": "How to understand and use your chart of accounts",
       "url": "https://www.waveapps.com/blog/how-to-understand-and-use-your-chart-of-accounts",
-      "tags": ["accounting", "chart-of-accounts", "bookkeeping"]
+      "tags": [
+        "accounting",
+        "chart-of-accounts",
+        "bookkeeping"
+      ]
     },
     {
       "title": "Why your P&L and bank statement don't match",
       "url": "https://www.waveapps.com/blog/pl-statement-and-bank-statement-dont-match",
-      "tags": ["accounting", "reconciliation", "financial-reporting"]
+      "tags": [
+        "accounting",
+        "reconciliation",
+        "financial-reporting"
+      ]
     },
     {
       "title": "Tax forms for small businesses in the United States",
       "url": "https://www.waveapps.com/blog/us-small-business-tax-forms",
-      "tags": ["tax", "small-business", "united-states"]
+      "tags": [
+        "tax",
+        "small-business",
+        "united-states"
+      ]
     },
     {
       "title": "Tax credits and deductions for sole proprietors in Canada",
       "url": "https://www.waveapps.com/blog/sole-proprietor-tax-credits-deductions-canada",
-      "tags": ["tax", "sole-proprietor", "canada"]
+      "tags": [
+        "tax",
+        "sole-proprietor",
+        "canada"
+      ]
     },
     {
-      "title": "Tax credits and deductions for LLCs — 2026 guide",
+      "title": "Tax credits and deductions for LLCs \u2014 2026 guide",
       "url": "https://www.waveapps.com/blog/llc-tax-credits-deductions",
-      "tags": ["tax", "llc", "deductions"]
+      "tags": [
+        "tax",
+        "llc",
+        "deductions"
+      ]
     },
     {
       "title": "Tax benefits of LLCs: How small businesses can save",
       "url": "https://www.waveapps.com/blog/tax-benefits-of-llcs",
-      "tags": ["tax", "llc", "small-business"]
+      "tags": [
+        "tax",
+        "llc",
+        "small-business"
+      ]
     },
     {
       "title": "Tax benefits of sole proprietors: The pros and cons",
       "url": "https://www.waveapps.com/blog/tax-benefits-of-sole-proprietors",
-      "tags": ["tax", "sole-proprietor", "small-business"]
+      "tags": [
+        "tax",
+        "sole-proprietor",
+        "small-business"
+      ]
     },
     {
       "title": "Top 10 small business deductions and tax expenses",
       "url": "https://www.waveapps.com/blog/top-10-small-business-deductions-and-tax-expenses",
-      "tags": ["tax", "deductions", "small-business"]
+      "tags": [
+        "tax",
+        "deductions",
+        "small-business"
+      ]
     },
     {
       "title": "S corporations: What they are and 5 benefits",
       "url": "https://www.waveapps.com/blog/s-corp-benefits",
-      "tags": ["tax", "s-corp", "small-business"]
+      "tags": [
+        "tax",
+        "s-corp",
+        "small-business"
+      ]
     },
     {
       "title": "The ultimate guide to self-employed tax deductions",
       "url": "https://www.waveapps.com/blog/self-employed-tax-deductions",
-      "tags": ["tax", "self-employed", "deductions"]
+      "tags": [
+        "tax",
+        "self-employed",
+        "deductions"
+      ]
     },
     {
       "title": "The complete guide to small business tax season (2026)",
       "url": "https://www.waveapps.com/blog/the-complete-guide-to-small-business-tax-season",
-      "tags": ["tax", "small-business", "guide"]
+      "tags": [
+        "tax",
+        "small-business",
+        "guide"
+      ]
     },
     {
-      "title": "Tax credits and deductions for sole proprietors — 2026 guide",
+      "title": "Tax credits and deductions for sole proprietors \u2014 2026 guide",
       "url": "https://www.waveapps.com/blog/sole-proprietor-tax-credits-deductions",
-      "tags": ["tax", "sole-proprietor", "deductions"]
+      "tags": [
+        "tax",
+        "sole-proprietor",
+        "deductions"
+      ]
     },
     {
-      "title": "How to file self-employment taxes in Canada — 2026 guide",
+      "title": "How to file self-employment taxes in Canada \u2014 2026 guide",
       "url": "https://www.waveapps.com/blog/how-to-file-self-employment-taxes-canada",
-      "tags": ["tax", "self-employment", "canada"]
+      "tags": [
+        "tax",
+        "self-employment",
+        "canada"
+      ]
     },
     {
       "title": "How to file taxes as a sole proprietor in Canada (2026 guide)",
       "url": "https://www.waveapps.com/blog/sole-proprietor-tax-filing-canada",
-      "tags": ["tax", "sole-proprietor", "canada"]
+      "tags": [
+        "tax",
+        "sole-proprietor",
+        "canada"
+      ]
     },
     {
       "title": "How to file taxes as a sole proprietor (in the US)",
       "url": "https://www.waveapps.com/blog/sole-proprietor-tax-filing-guide",
-      "tags": ["tax", "sole-proprietor", "united-states"]
+      "tags": [
+        "tax",
+        "sole-proprietor",
+        "united-states"
+      ]
     },
     {
       "title": "How to file taxes as an LLC: Step-by-step guide",
       "url": "https://www.waveapps.com/blog/how-to-file-taxes-as-llc",
-      "tags": ["tax", "llc", "guide"]
+      "tags": [
+        "tax",
+        "llc",
+        "guide"
+      ]
     },
     {
       "title": "Introducing Wave Perks: Your hub for small business growth",
       "url": "https://www.waveapps.com/blog/introducing-wave-perks",
-      "tags": ["product", "small-business", "partnerships"]
+      "tags": [
+        "product",
+        "small-business",
+        "partnerships"
+      ]
     },
     {
       "title": "The ultimate daily bookkeeping checklist",
       "url": "https://www.waveapps.com/blog/small-business-daily-bookkeeping-checklist",
-      "tags": ["bookkeeping", "small-business", "checklist"]
+      "tags": [
+        "bookkeeping",
+        "small-business",
+        "checklist"
+      ]
     },
     {
       "title": "Spreadsheet vs. accounting software: When to make the switch",
       "url": "https://www.waveapps.com/blog/spreadsheets-vs-accounting-software-when-to-make-the-switch",
-      "tags": ["accounting", "software", "small-business"]
+      "tags": [
+        "accounting",
+        "software",
+        "small-business"
+      ]
     },
     {
       "title": "How bank reconciliation keeps your business on track",
       "url": "https://www.waveapps.com/blog/what-is-bank-reconciliation",
-      "tags": ["reconciliation", "bookkeeping", "banking"]
+      "tags": [
+        "reconciliation",
+        "bookkeeping",
+        "banking"
+      ]
     },
     {
       "title": "Managing cash flow: 7 tips for solopreneurs",
       "url": "https://www.waveapps.com/blog/managing-cash-flow-solopreneur-tips",
-      "tags": ["cash-flow", "solopreneur", "financial-management"]
+      "tags": [
+        "cash-flow",
+        "solopreneur",
+        "financial-management"
+      ]
     },
     {
       "title": "What is a profit and loss statement?",
       "url": "https://www.waveapps.com/blog/profit-and-loss-statement",
-      "tags": ["financial-reporting", "p-and-l", "accounting"]
+      "tags": [
+        "financial-reporting",
+        "p-and-l",
+        "accounting"
+      ]
     },
     {
       "title": "How to keep track of business expenses: 4 easy steps",
       "url": "https://www.waveapps.com/blog/how-to-track-business-expenses-and-why-its-important",
-      "tags": ["expenses", "bookkeeping", "small-business"]
+      "tags": [
+        "expenses",
+        "bookkeeping",
+        "small-business"
+      ]
     },
     {
       "title": "What is a balance sheet? Beginner's guide",
       "url": "https://www.waveapps.com/blog/what-is-a-balance-sheet",
-      "tags": ["financial-reporting", "balance-sheet", "accounting"]
+      "tags": [
+        "financial-reporting",
+        "balance-sheet",
+        "accounting"
+      ]
     },
     {
       "title": "Small business bookkeeping: Step-by-step guide",
       "url": "https://www.waveapps.com/blog/how-to-do-bookkeeping-for-small-businesses",
-      "tags": ["bookkeeping", "small-business", "guide"]
+      "tags": [
+        "bookkeeping",
+        "small-business",
+        "guide"
+      ]
     },
     {
       "title": "Wave x Shorty Awards Elevate Creatives Fund: Announcing recipients",
       "url": "https://www.waveapps.com/blog/wave-x-shorty-awards-elevate-creatives-fund-second-annual-recipients",
-      "tags": ["community", "creatives", "awards"]
+      "tags": [
+        "community",
+        "creatives",
+        "awards"
+      ]
     },
     {
       "title": "What is domain spoofing? How to protect yourself",
       "url": "https://www.waveapps.com/blog/what-is-domain-spoofing",
-      "tags": ["security", "fraud", "small-business"]
+      "tags": [
+        "security",
+        "fraud",
+        "small-business"
+      ]
     },
     {
       "title": "How to avoid small business payment scams",
       "url": "https://www.waveapps.com/blog/how-to-avoid-small-business-payment-scams",
-      "tags": ["security", "payments", "fraud"]
+      "tags": [
+        "security",
+        "payments",
+        "fraud"
+      ]
     }
-  ]
+  ],
+  "repo": "wave-financial",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/waveapps",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
