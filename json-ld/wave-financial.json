@@ -4,7 +4,7 @@
   "name": "Wave Financial",
   "url": "https://www.waveapps.com",
   "description": "Free accounting software for small businesses with a GraphQL API for managing invoices, estimates, customers, products, accounts, and financial reporting.",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://twitter.com/wave_financial",
     "https://www.linkedin.com/company/waveapps",
