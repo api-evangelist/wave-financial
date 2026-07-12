@@ -43,6 +43,8 @@ apis:
   - url: graphql/wave-financial-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/wave-financial-domain-security.yml
 - type: Website
   url: https://www.waveapps.com
 - type: Documentation
