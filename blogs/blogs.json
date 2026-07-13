@@ -277,14 +277,11 @@
   "repo": "wave-financial",
   "feeds": [
     {
-      "source": "https://www.waveapps.com/blog",
-      "feed_url": "",
-      "saved": 0,
-      "method": "agent-scrape",
-      "error": "no determinable post dates on listing"
+      "source": "https://www.linkedin.com/company/waveapps",
+      "error": "HTTPError"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-06-27T13:21:06Z",
-  "agent_pulled": "2026-06-27"
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
