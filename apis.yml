@@ -4,7 +4,19 @@ description: Free accounting software for small businesses with a GraphQL API fo
   managing invoices, estimates, customers, products, accounts, and financial reporting.
   The API uses OAuth 2.0 for authentication and supports operations for businesses,
   customers, invoices, transactions, vendors, taxes, and webhooks.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wave-financial.png
 url: https://raw.githubusercontent.com/api-evangelist/wave-financial/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
