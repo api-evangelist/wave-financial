@@ -42,6 +42,12 @@ apis:
   - GraphQL
   - Invoicing
   - Customers
+  - Transaction
+  tags_raw:
+  - Accounting
+  - GraphQL
+  - Invoicing
+  - Customers
   - Transactions
   properties:
   - type: Documentation
