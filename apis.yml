@@ -4,6 +4,17 @@ description: Free accounting software for small businesses with a GraphQL API fo
   managing invoices, estimates, customers, products, accounts, and financial reporting.
   The API uses OAuth 2.0 for authentication and supports operations for businesses,
   customers, invoices, transactions, vendors, taxes, and webhooks.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
