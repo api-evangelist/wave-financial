@@ -58,7 +58,7 @@
       ]
     },
     {
-      "title": "Tax credits and deductions for LLCs \u2014 2026 guide",
+      "title": "Tax credits and deductions for LLCs — 2026 guide",
       "url": "https://www.waveapps.com/blog/llc-tax-credits-deductions",
       "tags": [
         "tax",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "title": "Tax credits and deductions for sole proprietors \u2014 2026 guide",
+      "title": "Tax credits and deductions for sole proprietors — 2026 guide",
       "url": "https://www.waveapps.com/blog/sole-proprietor-tax-credits-deductions",
       "tags": [
         "tax",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "title": "How to file self-employment taxes in Canada \u2014 2026 guide",
+      "title": "How to file self-employment taxes in Canada — 2026 guide",
       "url": "https://www.waveapps.com/blog/how-to-file-self-employment-taxes-canada",
       "tags": [
         "tax",
@@ -286,5 +286,8 @@
   ],
   "post_count": 1,
   "fetched": "2026-08-30T22:33:40Z",
-  "agent_pulled": "2026-07-04"
+  "agent_pulled": "2026-07-04",
+  "feed_nature": "vendor-blog",
+  "feed_nature_basis": "path_blog",
+  "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
 }
