@@ -278,14 +278,11 @@
   "feeds": [
     {
       "source": "https://www.linkedin.com/company/waveapps",
-      "feed_url": "https://www.linkedin.com/company/waveapps",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-09-06T19:17:18Z",
+  "fetched": "2026-09-13T13:00:00Z",
   "agent_pulled": "2026-07-04",
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
