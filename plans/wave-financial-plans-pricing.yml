@@ -74,3 +74,32 @@ notes:
   - Wave Financial API access is free with no per-call fees
   - As of May 26 2025 third-party OAuth applications require connected businesses to have an active Wave Pro subscription
   - Payroll pricing starts at $25/month for tax service states and $40/month for full-service states
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Starter
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Wave Advisors
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
