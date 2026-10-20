@@ -9,6 +9,7 @@ checked:
 - google-workspace/integrations/google-workspace-integration-edges.yml
 - https://composio.dev/toolkits/wave-financial
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
+- https://github.com/PipedreamHQ/pipedream/tree/d5872355ef27b4efa769f05352f2820c299a456e/components/
 - https://monid.ai/tools/wave-financial
 - https://n8n.io/integrations/wave-financial/
 - https://zapier.com/api/v4/apps/
@@ -16,6 +17,23 @@ checked:
 summary: null
 marketplace_apps: []
 edges:
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/wave_connect/90421189176
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - Wave Connect
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
 - partner_name: Zapier
   partner: zapier
   partner_match: aggregator
@@ -49,7 +67,7 @@ edges:
   channel: open-source-node
   relationship: ipaas-bridge
   direction: third-party
-  evidence: https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/wave
+  evidence: https://github.com/PipedreamHQ/pipedream/tree/d5872355ef27b4efa769f05352f2820c299a456e/components/wave
   category: null
   contract_reference:
     register: Pipedream components (PipedreamHQ/pipedream components/)
@@ -67,21 +85,4 @@ edges:
     builder: Pipedream repo (component)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
-- partner_name: Google Workspace (own)
-  partner: google-workspace
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://workspace.google.com/marketplace/app/wave_connect/90421189176
-  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
-  apps:
-  - Wave Connect
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Google Workspace app
 templates: []
