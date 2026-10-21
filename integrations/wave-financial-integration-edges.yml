@@ -14,6 +14,9 @@ checked:
 - https://n8n.io/integrations/wave-financial/
 - https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/wave-financial/integrations
+- https://advertising.amazon.com/partners/directory
+- https://sellercentral.amazon.com/gspn
+- https://sellercentral.amazon.com/selling-partner-appstore
 summary: null
 marketplace_apps: []
 edges:
@@ -85,4 +88,19 @@ edges:
     builder: Pipedream repo (component)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
+- partner_name: Amazon Selling Partner Appstore
+  partner: amazon-seller-central
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://sellercentral.amazon.com/selling-partner-appstore/dp/amzn1.sp.solution.d411a4d3-ebaa-4a73-8f96-d2a5f6c2491b
+  mirror_of: amazon-seller-central/integrations/amazon-seller-central-integration-edges.yml
+  apps:
+  - Wave
+  detected: '2026-10-21'
+  detected_by: sweep-amazon-sp-api-appstore.py
 templates: []
