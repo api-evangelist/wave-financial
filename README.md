@@ -64,72 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Free accounting software for small businesses with a GraphQL API for managing invoices, estimates, customers, products, accounts, and financial reporting.
+Free accounting software for small businesses with a GraphQL API for managing invoices, estimates, customers, products, accounts, and financial reporting. The API uses OAuth 2.0 for authentication and supports operations for businesses, customers, invoices, transactions, vendors, taxes, and webhooks.
 
-## Overview
+**Areas:** Accounting · Invoicing · Finance · Small Business · Bookkeeping · Payments
 
-Wave Financial provides a GraphQL API that gives developers programmatic access to core accounting functions. The API uses a single endpoint and supports OAuth 2.0 for authentication, enabling integrations for invoicing, expense tracking, and financial reporting.
+## Wave Financial on APIs.io
 
-**API Endpoint:** `https://gql.waveapps.com/graphql/public`
+Everything profiled for Wave Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wave-financial/](https://apis.io/providers/wave-financial/)** — or go straight to one of the APIs or properties below.
 
-**Developer Portal:** https://developer.waveapps.com/hc/en-us
+### APIs (1)
 
-## Authentication
+- [Wave Financial GraphQL API](https://apis.io/apis/wave-financial/wave-financial-graphql-api/) — GraphQL API providing programmatic access to Wave accounting features including businesses, customers, invoices, products, accounts, transactions, vendors,…
 
-Wave uses OAuth 2.0 Authorization Code Flow:
+### Published properties
 
-- Register an application at the Wave Developer Portal to obtain Client ID and Client Secret
-- Authorization endpoint: `https://api.waveapps.com/oauth2/authorize/`
-- Token endpoint: `https://api.waveapps.com/oauth2/token/`
-- Access tokens expire after approximately 2 hours; refresh tokens enable long-term access
-- Scopes: `accounting:read`, `accounting:write`, `transactions:write`, `offline_access`
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Note:** As of May 26, 2025, third-party applications require connected businesses to have an active Wave Pro subscription.
+#### GraphQL (1)
 
-## API Capabilities
+GraphQL schemas.
 
-- **Businesses** - Retrieve settings and business details
-- **Customers** - Full CRUD operations
-- **Invoices** - Create, read, and update invoice management
-- **Products/Services** - Product catalog management
-- **Accounts** - Chart of accounts access
-- **Transactions** - Accounting transaction data
-- **Vendors** - Supplier management
-- **Taxes** - Tax rates and configurations
+- [Wave Financial GraphQL API](https://apis.io/graphqls/wave-financial/wave-financial-graphql/)
 
-## Webhooks
+#### Security (1)
 
-Supported events: `invoice.created`, `invoice.updated`, `invoice.paid`, `customer.created`, `customer.updated`, `transaction.created`, `product.created`, `product.updated`
+Authentication, trust centre, and vulnerability disclosure.
 
-## Rate Limits
+- [Wave Financial Domain Security](https://apis.io/security/wave-financial/wave-financial-domain-security/)
 
-- 60 requests per minute per access token
-- 5,000 requests per day per application
-- HTTP 429 returned when limits exceeded
+#### Plans and pricing (1)
 
-## Pricing
+Published plans, tiers and prices.
 
-Wave Financial API access is free with no per-call fees. Core accounting features are free; paid options for payments, payroll, and advisory services are available.
+- [Wave Financial Plans Pricing](https://apis.io/plans/wave-financial/wave-financial-plans-pricing/)
 
-| Plan | Price | Notes |
-|------|-------|-------|
-| Starter | Free | Core accounting; payment processing 2.9% + $0.60/txn |
-| Pro | $19/month | Required for third-party OAuth integrations; bank import; multi-user |
-| Wave Advisors | $199+/month | Dedicated bookkeeper; monthly statements |
+#### Rate limits (1)
 
-## Resources
+Published request limits.
 
-- [Developer Portal](https://developer.waveapps.com/hc/en-us)
-- [API Reference](https://developer.waveapps.com/hc/en-us/articles/360019968212-API-Reference)
-- [OAuth Guide](https://developer.waveapps.com/hc/en-us/articles/360019493652-OAuth-Guide)
-- [GraphQL Guide](https://developer.waveapps.com/hc/en-us/articles/360018570992-Building-on-GraphQL)
-- [API Playground](https://developer.waveapps.com/hc/en-us/articles/360018937431-API-Playground)
+- [Wave Financial Rate Limits](https://apis.io/rate-limits/wave-financial/wave-financial-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Wave Financial Finops](https://apis.io/finops/wave-financial/wave-financial-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.waveapps.com)
+- [Documentation](https://developer.waveapps.com/hc/en-us)
 - [Pricing](https://www.waveapps.com/pricing)
-- [Status Page](https://status.waveapps.com/)
 - [Blog](https://www.waveapps.com/blog)
+- [Status](https://status.waveapps.com/)
 
-## APIs.json
+## API Evangelist rating
 
-This repository contains an [APIs.json](apis.yml) profile (specification version 0.19) cataloging the Wave Financial API for the API Evangelist network.
+**Kin Score 28.1** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Maintainer:** Kin Lane (kin@apievangelist.com)
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 39.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 27.4 |
+| Access clarity | 18.4 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wave-financial/](https://apis.io/providers/wave-financial/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wave Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wave-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
